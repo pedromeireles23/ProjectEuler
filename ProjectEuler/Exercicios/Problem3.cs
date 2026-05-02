@@ -27,6 +27,6 @@ public static void FatoresPrimos(int num)
     if(num > 2) fatores.Add(num);
 
 
-    System.Console.WriteLine($"Os fatores primos de {num} são: " +string.Join(",",  fatores));
+    System.Console.WriteLine($"Os fatores primos de {num} são: " +string.Join(",",  fatores) + $"\ne o maior fator primo do número dado é: {fatores.Max()}");
 
 }}
